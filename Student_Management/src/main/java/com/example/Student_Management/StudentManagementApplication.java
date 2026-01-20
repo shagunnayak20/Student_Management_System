@@ -11,3 +11,7 @@ public class StudentManagementApplication {
 	}
 
 }
+//controller->request //path
+//service->logic
+//repository->database
+// model->data schema
