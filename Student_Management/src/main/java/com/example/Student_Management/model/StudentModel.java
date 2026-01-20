@@ -9,11 +9,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.lang.annotation.Documented;
 
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
-@Document(collection ="SpringBoot")
+@AllArgsConstructor //all constructor
+@NoArgsConstructor  // null constructor
+@Document(collection ="Student")
 public class StudentModel {
-    @Id
+    @Id //primary key
     private String id;
     private String name;
     private int age;
